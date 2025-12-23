@@ -132,7 +132,7 @@ Update Policy Parameters
 ### Reward Curve
 Below is the training reward per episode with a 10-episode moving average.
 
-![Training Reward](results/reward_curve.png)
+![Training Reward](Figuare_1.png)
 
 ### Observations
 - Early training shows high variance due to stochastic policy sampling.
@@ -160,5 +160,6 @@ To measure true policy performance, the agent was periodically evaluated using *
 ## Future Work
 - Actor–Critic / PPO for lower variance
 - Continuous action space control
+
 
 
